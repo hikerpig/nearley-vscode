@@ -37,7 +37,7 @@
     ],
     "repository": {
         "keywords": {
-            "match": "@(?:builtin|import|preprocessor)\\b",
+            "match": "@(?:builtin|import|preprocessor|lexer|include)\\b",
             "name": "keyword.other.nearley"
         },
         "constants": {
@@ -73,7 +73,7 @@
             "endCaptures": {
                 "0": { "name": "end.brace.nearley" }
             },
-            "name": "source.js.embedded.nearley",
+            "name": "source.ts",
             "patterns": [
                 {
                     "include": "source.ts"
