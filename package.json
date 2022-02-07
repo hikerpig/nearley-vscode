@@ -15,10 +15,6 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onLanguage:nearley"
-  ],
-  "main": "./out/src/extension",
   "license": "MIT",
   "contributes": {
     "languages": [
